@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>提瓦特大陆</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 顶部区域 -->
+    <header>
+        <div class="music-control" id="music-control">
+            <img src="images/music.png" alt="音乐控制" id="music-icon">
+        </div>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="原神" class="header-logo">
+        </div>
+        <nav class="header-nav">
+            <a href="#" class="header-nav-btn active" title="组长" alt="组长">王宇盛</a>
+            <a href="#" class="header-nav-btn">刘子东</a>
+            <a href="#" class="header-nav-btn">彭雷</a>
+            <a href="#" class="header-nav-btn">周璇</a>
+            <a href="#" class="header-nav-btn">罗方政</a>
+        </nav>
+        <a href="second.html" class="header-nav-btn team-name-btn">第六小组</a>
+    </header>
+
+    <video autoplay muted loop id="video-background">
+        <source src="images/first.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+
+    <audio id="background-music" loop>
+        <source src="images/music.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
